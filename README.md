@@ -6,11 +6,13 @@
 | フロントエンド | Vue.js（TypeScript、Pinia、Vue Router）   | Viteベース、Tailwind導入予定 |
 | バックエンド   | Node.js（Express）                        | REST API構成予定             |
 | データベース   | PlanetScale（Prisma）                     | MySQL互換、開発ブランチ使用   |
-| インフラ       | Docker、Vercel、Render                    | ローカル＆本番共通意識       |
-| CI/CD        | GitHub Actions                            | Lint → Build → Deploy順      |
+| インフラ       | Docker(予定)、Vercel、Render              | ローカル＆本番共通意識       |
+| CI/CD        | GitHub Actions(予定)                      | Lint → Build → Deploy順      |
 | ソース管理    | GitHub                                    | Issueテンプレート使用         |
 
+
 ## フォルダ構成
+---
 ```
 trip-share-app/
 ├── frontend/        # Vue.js（Vite）
