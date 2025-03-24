@@ -1,0 +1,42 @@
+# Node.js 共通
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 出力物
+dist/
+build/
+coverage/
+*.log
+
+# dotenv 環境変数
+.env
+.env.*
+!.env.example  # サンプルだけは残すと親切
+
+# Vite キャッシュ
+.vite/
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# VSCodeやIDE
+.vscode/
+.idea/
+
+# OSファイル
+.DS_Store
+Thumbs.db
+
+# GitHub Actionsの一時ファイル
+*.tgz
+
+# その他
+*.local
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
